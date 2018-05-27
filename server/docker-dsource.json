@@ -1,0 +1,9 @@
+,
+  "pgdb": {
+    "name": "pgdb",
+    "connector": "postgresql",
+    "user": "Green",
+    "database": "IoTDB",
+    "host": "192.168.111.10",
+    "password": "g_house_controller_icecream"
+  }

@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "pgdb": {
+    "name": "pgdb",
+    "connector": "postgresql",
+    "user": "postgres",
+    "database": "postgres",
+    "host": "localhost",
+    "password": "mysecretpassword"
+  }
+}

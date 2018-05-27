@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "pgdb"
+  },
+  "AccessToken": {
+    "dataSource": "pgdb",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "pgdb",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "pgdb",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "pgdb",
+    "public": false
+  }
+}
